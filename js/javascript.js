@@ -63,16 +63,17 @@ function RespuestaUsuario(num){
         if(respuestaIA == 'piedra'){
             document.getElementById('respuesta').innerHTML = 'PERDISTE, IA eligió Piedra';
             document.getElementById('respuesta').style.color = 'red';
-            marcador1++;
+            marcador2++;
         }
         else if (respuestaIA == 'papel'){
             document.getElementById('respuesta').innerHTML = 'GANASTE, IA eligió Papel';
             document.getElementById('respuesta').style.color = 'green';
+            marcador1++;
         }
         else{
             document.getElementById('respuesta').innerHTML = 'EMPATE, IA eligió Tijeras';
             document.getElementById('respuesta').style.color = 'orange';
-            marcador2++;
+            
         }
 
        Marcador();
