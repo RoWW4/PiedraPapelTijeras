@@ -1,0 +1,15 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    width: 960px;
+    margin: auto;
+    background-color:white;
+}
+
+#datos{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    color: blue;
+    font-size: large;
+}

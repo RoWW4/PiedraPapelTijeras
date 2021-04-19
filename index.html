@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+  <head>
+    <title>Juego Piedra-Papel-Tijeras</title>
+    <link rel="icon" type="image/x-icon" href="img/tijeras.png" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="/js/javascript.js"></script>
+  </head>
+
+  <body>
+    <header>
+        <h1>Juego del Piedra, Papel o Tijeras</h1>
+    </header>
+    <div id="datos">
+        <div>
+            <span id="jugador1">Jugador 1: jugador1</span> | 
+            <span id="marcador1">Marcador: 0</span>
+        </div>
+        <div>
+            <span id="jugador2">Jugador 2: IA</span> | 
+            <span id="marcador2">Marcador: 0</span>
+        </div>
+    </div>
+        <div>
+            <h3>Elige una opción:</h3>
+            <img src="/img/piedra.png" alt="piedra-icon" onclick="RespuestaUsuario(0);">
+            <img src="/img/papel.png" alt="papel-icon" onclick="RespuestaUsuario(1);">
+            <img src="/img/tijeras.png" alt="tijeras-icon" onclick="RespuestaUsuario(2);">
+            <h2 id="respuesta"></h2>
+        </div>
+  </body>
+</html>
