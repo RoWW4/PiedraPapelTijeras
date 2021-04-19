@@ -53,7 +53,7 @@ function RespuestaUsuario(num){
         else{
             document.getElementById('respuesta').innerHTML = 'PERDISTE, IA eligió Tijeras';
             document.getElementById('respuesta').style.color = 'red';
-        marcador2++;
+            marcador2++;
         }
 
         Marcador()
